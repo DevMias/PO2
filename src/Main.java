@@ -11,7 +11,7 @@ public class Main {
         String fileName;
         ShoppingList shoppingList = new ShoppingList();
         if (cond == 0) {
-            System.out.println("Podaj nazwę pliku textowego w którym przechowujesz listę zakupów: ");
+            System.out.println("Podaj nazwę pliku text w którym przechowujesz listę zakupów: ");
             while (true) {
                 try {
                     fileName = input.nextLine();
